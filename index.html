@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img-login"></div>
+
+            <div id="formulario">
+                <form action="login.php" method="get" autocomplete="on">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                    <div class="lilas">
+                        <input type="email" name="email" id="email" placeholder="seu e-mail" autocomplete="email" required>
+                    </div>
+                    <div class="lilas">
+                        <input type="password" name="senha" id="senha" placeholder="sua senha" minlength="8" maxlength="20" autocomplete="current-password" required>
+                    </div>
+                    <div>
+                        <input id="entrar" type="submit" value="Entrar">
+                    </div>
+                    <div>
+                        <input id="recuperar" type="submit" value="Esqueci a senha">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

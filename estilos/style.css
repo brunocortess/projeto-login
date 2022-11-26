@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* 
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #5f2c82;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    border-radius: 20px;
+}
+
+section#login {
+    margin: auto;
+    width: 250px;
+    margin-top: 45px;
+
+}
+
+div#img-login {
+    background: url(../imagens/pexels-hamza-nouasria-14408740.jpg) top center;
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+   
+}
+
+div#formulario {
+    background-color: white;
+    text-align: center; 
+    padding: 10px;
+    padding-bottom: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+}
+
+div#formulario h1 {
+    margin-bottom: 10px;
+}
+
+div#formulario p {
+    font-size: 0.8em;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+form > div {
+    margin-bottom: 5px;
+   
+}
+
+div > input {
+    border-radius: 10px;
+    width: 95%;
+    height: 35px;
+    border: none;
+}
+
+div.lilas {
+    background-color: #5f2c82;
+    padding: 2px 0px 2px 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+div.lilas input {
+    border: none;
+    background-color: #94CFCD;
+    padding: 2px;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+input#entrar {
+    background-color: #49a09d;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+input#recuperar {
+    background-color: white;
+    border: 1px solid #49a09d;
+    color: #49a09d;
+}
