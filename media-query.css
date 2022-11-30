@@ -47,4 +47,14 @@
    section#login > div#formulario {
        width: 50%;
    }
+
+   div#formulario > h1 {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+   div#formulario > p {
+    font-size: 1em;
+}
+
 }
